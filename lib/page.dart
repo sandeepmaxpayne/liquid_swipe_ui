@@ -4,28 +4,81 @@ import 'constant.dart';
 final pages = [
   Container(
     child: ContainerPage(
-      color: Colors.white,
-      image: Image.asset('assets/img/secondImage.png'),
+      color: Colors.lightGreen.shade900,
       text1: Text(
-        "GoldCoin",
+        'online Purchase',
         style: goldCoinWhiteStyle,
       ),
+      image: Image.asset(
+        "assets/img/car_batt.png",
+        fit: BoxFit.fill,
+      ),
       text2: Text(
-        "Skip",
+        'offline Purchase',
         style: goldCoinWhiteStyle,
       ),
       dText1: Text(
-        'Online',
-        style: greyStyle,
+        'TYPE',
+        style: whiteStyle,
       ),
       dText2: Text(
-        'Gambling',
+        'Car Battery',
         style: boldStyle,
       ),
       dText3: Text(
-        'Temporary \n'
-        'official\n'
-        'necsses',
+        'unavailable',
+        style: descriptionWhiteStyle,
+      ),
+    ),
+  ),
+  Container(
+    child: ContainerPage(
+      color: Colors.lightGreen.shade400,
+      text1: Text(
+        'online Purchase',
+        style: goldCoinWhiteStyle,
+      ),
+      image: Image.asset("assets/img/pencil_battery.png", fit: BoxFit.fill),
+      text2: Text(
+        'offline Purchase',
+        style: goldCoinWhiteStyle,
+      ),
+      dText1: Text(
+        'TYPE',
+        style: whiteStyle,
+      ),
+      dText2: Text(
+        'Pencil Cell',
+        style: boldStyle,
+      ),
+      dText3: Text(
+        'available',
+        style: descriptionWhiteStyle,
+      ),
+    ),
+  ),
+  Container(
+    child: ContainerPage(
+      color: Color(0xFF134CA2),
+      image: Image.asset('assets/img/luminous_battery.png', fit: BoxFit.fill),
+      text1: Text(
+        "online purchase",
+        style: goldCoinWhiteStyle,
+      ),
+      text2: Text(
+        "offline purchase",
+        style: goldCoinWhiteStyle,
+      ),
+      dText1: Text(
+        'TYPE',
+        style: greyStyle,
+      ),
+      dText2: Text(
+        'Home Battery',
+        style: boldStyle,
+      ),
+      dText3: Text(
+        'available',
         style: descriptionGreyStyle,
       ),
     ),
@@ -34,24 +87,24 @@ final pages = [
     child: ContainerPage(
       color: Color(0xff55006c),
       text1: Text(
-        'GoldCoin',
+        'online purchase',
         style: goldCoinWhiteStyle,
       ),
-      image: Image.asset('assets/img/secondImage.png'),
+      image: Image.asset('assets/img/battery2.png', fit: BoxFit.fill),
       text2: Text(
-        'skip',
+        'offline purchase',
         style: goldCoinWhiteStyle,
       ),
       dText1: Text(
-        'Offline',
+        'TYPR',
         style: whiteStyle,
       ),
       dText2: Text(
-        'Gaming',
+        'Home Battery',
         style: boldStyle,
       ),
       dText3: Text(
-        'Expert Gaming',
+        'available',
         style: descriptionWhiteStyle,
       ),
     ),
@@ -60,24 +113,24 @@ final pages = [
     child: ContainerPage(
       color: Colors.orange,
       text1: Text(
-        'Online',
-        style: whiteStyle,
+        'online purchase',
+        style: goldCoinWhiteStyle,
       ),
-      image: Image.asset("assets/img/firstImage.png"),
+      image: Image.asset("assets/img/battery.png", fit: BoxFit.fill),
       text2: Text(
-        'Gamers',
-        style: boldStyle,
+        'offline purchase',
+        style: goldCoinWhiteStyle,
       ),
       dText1: Text(
-        'hello1',
-        style: whiteStyle,
+        'TYPE',
+        style: goldCoinWhiteStyle,
       ),
       dText2: Text(
-        'hello2',
+        'Home Battery',
         style: boldStyle,
       ),
       dText3: Text(
-        'hello3',
+        'available',
         style: descriptionWhiteStyle,
       ),
     ),

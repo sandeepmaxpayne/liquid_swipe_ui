@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         body: LiquidSwipe(
           pages: pages,
           enableLoop: false,
-          fullTransitionValue: 300,
+          fullTransitionValue: 400,
           enableSlideIcon: true,
           waveType: WaveType.liquidReveal,
           positionSlideIcon: 0.5,

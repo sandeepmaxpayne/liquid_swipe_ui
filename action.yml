@@ -1,0 +1,10 @@
+name: 'sandeep dutta'
+description: 'student developer'
+author: 'sandeepmaxpayne'
+inputs:
+  myInput:              
+    description: 'To use this as app UI'
+    default: 'world'
+runs:
+  using: 'dart'
+  main: 'lib/main.dart'
