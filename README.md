@@ -1,4 +1,4 @@
-# lquid_swipe_ui
+# liquid_swipe_ui
 
 A new Flutter application.
 
