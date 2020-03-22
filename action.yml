@@ -1,10 +1,10 @@
-name: 'sandeep dutta'
-description: 'student developer'
-author: 'sandeepmaxpayne'
+name: 'main.dart'
+description: 'Liquid Screen UI is an attractive animated screen designed implemented'
+author: 'Sandeep Dutta'
 inputs:
   myInput:              
-    description: 'To use this as app UI'
-    default: 'world'
+    description: 'To use this as app screen UI on android'
+    default: 'android'
 runs:
   using: 'dart'
   main: 'lib/main.dart'
