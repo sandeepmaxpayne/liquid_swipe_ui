@@ -1,3 +1,4 @@
+# action.yml
 name: 'liquid touch ui from scratch'
 description: 'Liquid touch and swipe ui made from scratch for flutter app using liquid swipe dependency library.'
 runs:
