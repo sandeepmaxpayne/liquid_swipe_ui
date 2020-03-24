@@ -16,3 +16,4 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 LICENSE 📋
+<p> This project is licensed under <a href="https://github.com/sandeepmaxpayne/liquid_swipe_ui/blob/master/LICENSE">MIT License</a></p>
