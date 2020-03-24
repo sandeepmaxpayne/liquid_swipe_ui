@@ -1,13 +1,7 @@
-name: 'main.dart'
-description: 'Liquid Screen UI is an attractive animated screen designed implemented'
-author: 'Sandeep Dutta'
-inputs:
-  myInput:              
-    description: 'To use this as app screen UI on android'
-    default: 'android'
+name: 'liquid touch ui from scratch'
+description: 'Liquid touch and swipe ui made from scratch for flutter app using liquid swipe dependency library.'
 runs:
   using: 'dart'
-  main: 'lib/main.dart'
 branding:
-  icon: 'fluter_icon'  
+  icon: 'flutter'  
   color: 'blue'
